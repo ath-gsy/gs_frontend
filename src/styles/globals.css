@@ -1,0 +1,36 @@
+html {
+  background-color: black;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+
+  padding-left: 20px;
+
+  background-color: black;
+}
+.title {
+  color: white;
+}
+
+.content {
+  display: flex;
+  height: fit-content;
+  max-width: 100%;
+
+  padding: 20px;
+  overflow-x: auto;
+  overflow-y: auto;
+
+  background-color: wheat;
+}
+
+.map {
+  width: 100%;
+  height: fit-content;
+}
